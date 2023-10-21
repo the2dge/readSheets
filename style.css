@@ -1,0 +1,52 @@
+body{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+#photos-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 1rem;
+	background: #f0f0f0;
+}
+
+#photos-container p{
+	color: #303030;
+	font-family: sans-serif;
+}
+h2{
+	width: 100%;
+    background: #e0e0e0;
+    text-align: center;
+}
+.photo-item {
+        margin: 10px;  /* This will add a margin of 10px around each photo item. Adjust as needed. */
+        display: inline-block;      
+    }
+.photo-item:nth-child(1){
+	width: 90%;
+	border: grey 3px solid;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+}
+.photo-item:nth-child(1) img{
+	width: 85%;
+	transform: scale(1.01);
+}
+.photo-item:nth-child(1) p{
+	width: 100%;
+}
+.photo-item img {
+	    transition: 0.5s;
+	    box-shadow: 5px 5px 5px grey;
+        display: block; /* This ensures the margin-bottom for the image works */
+        margin-bottom: 5px; /* This will add a space between the image and its description */
+}
+.photo-item img:hover{
+	transform: scale(1.05);
+ 	transition: 0.8s;
+}
