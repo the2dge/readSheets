@@ -1,5 +1,5 @@
 // Replace this URL with your Cloud Function's URL
-const CLOUD_FUNCTION_URL = 'https://us-central1-readgsheets-400903.cloudfunctions.net/function-2';
+const CLOUD_FUNCTION_URL = 'https://us-central1-readgsheets-400903.cloudfunctions.net/function-1';
 
 async function fetchPhotos() {
     try {
